@@ -1,0 +1,21 @@
+{
+    "name": "piyushdolar/yii2-facebook",
+    "description": "Yii2 Facebook Extension is easy to implement to your Yii2 script that's what for it made.",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","facebook-extension","facebook","yii2-facebook-extension"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Piyush Dolar",
+            "email": "piyushdolar111@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "piyushdolar\\facebook\\": ""
+        }
+    }
+}
