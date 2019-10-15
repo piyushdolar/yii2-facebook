@@ -40,7 +40,7 @@ Once the extension is installed, simply use it in your code by :
 				'key'       => 'YOUR_APP_KEY',
 				'secret'    => 'YOUR_APP_SECRET',
 				'version'   => 'v4.0',
-				'callback'  => 'http://localhost/socialconnect/web/facebook/callback'
+				'callback'  => 'YOUR_CALLBACK_URL'
 			],
 	?>
 
