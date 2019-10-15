@@ -51,7 +51,7 @@ Once the extension is installed, simply use it in your code by :
 	?>
 
 ## Functions and usage:
-#### Login URL:
+#### 1. Login URL:
 Get Login URL by calling below function `(be default public_profile will return)` and Pass any facebook parameter to loginUrl function.
 
 	<?php 
@@ -59,7 +59,7 @@ Get Login URL by calling below function `(be default public_profile will return)
 	?>
 
 
-#### Get User Profile:
+#### 2. Get User Profile:
 Get User profile by calling below function pass any facebook parameter like `name,birthday, first_name,last_name,link` as array as defined below.
 > $this->accessToken = it should replaced with your actual access token.
 
@@ -67,7 +67,7 @@ Get User profile by calling below function pass any facebook parameter like `nam
 		\Yii::$app->facebook->getUserProfile(['name','birthday','gender'],$this->accessToken)
 	?>
 
-#### Get User Feed/Posts:
+#### 3. Get User Feed/Posts:
 Get User feeds/posts by calling below function pass any facebook parameter like `['message','link','full_picture','created_time','is_published','is_hidden','attachments']` as array as defined below.
 > $this->accessToken = it should replaced with your actual access token.
 
@@ -75,7 +75,7 @@ Get User feeds/posts by calling below function pass any facebook parameter like 
 		\Yii::$app->facebook->getUserProfile(['message','link','full_picture','created_time'],$this->accessToken)
 	?>
 
-#### Get User Total Friends:
+#### 4. Get User Total Friends:
 Get User total friend count by calling below function, You don't need pass anything to this function.
 > $this->accessToken = it should replaced with your actual access token.
 
