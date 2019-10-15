@@ -1,6 +1,6 @@
 Yii2 Facebook Extension
 =======================
-Yii2 Facebook Extension is easy to implement to your Yii2 script that's what for it made.
+Yii2 Facebook Extension is easy to implement to your Yii2 script that's what for it made. this extension is made from v4.0 of facebook graph api.
 
 Installation
 ------------
