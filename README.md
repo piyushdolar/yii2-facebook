@@ -21,6 +21,7 @@ or add
 
 to the require section of your `composer.json` file.
 
+[Links](http://localhost/)
 
 Usage
 -----
